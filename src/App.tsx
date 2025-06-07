@@ -38,25 +38,25 @@ const themes: { light: Theme; dark: Theme } = {
   light: {
     name: 'vintage',
     colors: {
-      primary: '#3A3833',
-      secondary: '#5A5550',
-      accent: '#DBD5C5',
-      text: '#3A3833',
-      textMuted: '#5A5550',
-      background: '#F2F2F2',
-      surface: '#EFEEEA'
+    primary: '#5A4FCF',       // Rich indigo for buttons/CTAs (pairs with dark's primary)
+    secondary: '#D6D4E0',     // Light lavender-gray for subtle surfaces
+    accent: '#F78C6B',        // Soft coral for warmth and highlights
+    text: '#1F1F25',          // Deep charcoal for readability
+    textMuted: '#6C6C7A',     // Cool muted gray for less prominent text
+    background: '#F9F9FB',    // Very light gray, not pure white
+    surface: '#FFFFFF'        // Clean white for cards/sections
     }
   },
   dark: {
     name: 'technical',
     colors: {
-   primary: '#FFFFFF',       // Dark chocolate brown
-    secondary: '#4B3621',     // Coffee brown
-    accent: '#A1866F',        // Warm muted tan
-    text: '#EDE6DE',          // Soft beige for readability
-    textMuted: '#BFAEA0',     // Muted beige
-    background: '#1C120A',    // Deep brown-black
-    surface: '#2A1B10'        // Slightly lighter than background
+   primary: '#8F7CEC',       // Soft violet-blue (for buttons/CTAs)
+    secondary: '#3D3A5A',     // Muted indigo-gray
+    accent: '#FFAD5E',        // Warm orange for highlights (e.g., links, icons)
+    text: '#E6E1E5',          // Light grayish white (main text)
+    textMuted: '#A29EAB',     // Muted lavender-gray (secondary text)
+    background: '#1A1A1F',    // Dark charcoal (main background)
+    surface: '#2B2B35'        // Slightly lighter surface for cards/sections
     }
   }
 };
