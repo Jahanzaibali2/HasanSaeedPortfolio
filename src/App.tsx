@@ -50,13 +50,13 @@ const themes: { light: Theme; dark: Theme } = {
   dark: {
     name: 'technical',
     colors: {
-      primary: '#C7C2B0',
-      secondary: '#A19B8A',
-      accent: '#494D44',
-      text: '#C7C2B0',
-      textMuted: '#A19B8A',
-      background: '#3B3F38',
-      surface: '#20231B'
+   primary: '#FFFFFF',       // Dark chocolate brown
+    secondary: '#4B3621',     // Coffee brown
+    accent: '#A1866F',        // Warm muted tan
+    text: '#EDE6DE',          // Soft beige for readability
+    textMuted: '#BFAEA0',     // Muted beige
+    background: '#1C120A',    // Deep brown-black
+    surface: '#2A1B10'        // Slightly lighter than background
     }
   }
 };
